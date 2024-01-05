@@ -9,12 +9,11 @@ import java.util.Collection;
 import java.util.UUID;
 
 @Entity(name = "users")
-@Table(name = "users")
 @Data
 public class User implements UserDetails {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     private String name;
     private String email;
