@@ -23,7 +23,7 @@ public class MailService {
     {
         String toAddress=user.getEmail();
         String fromAddress="joelsontiago13@gmail.com";
-        String senderName="Payment System By PIX";
+        String senderName="Payment System";
         String subject="Please,verify your registration!";
 
         String content = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional //EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n" +
