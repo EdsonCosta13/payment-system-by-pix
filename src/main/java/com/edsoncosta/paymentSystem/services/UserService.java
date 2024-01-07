@@ -1,6 +1,7 @@
 package com.edsoncosta.paymentSystem.services;
 
 
+import com.edsoncosta.paymentSystem.domain.dtos.UserResponseDTO;
 import com.edsoncosta.paymentSystem.domain.models.User;
 import com.edsoncosta.paymentSystem.domain.respositories.UserRepository;
 import com.edsoncosta.paymentSystem.utils.RandomString;
@@ -17,7 +18,7 @@ public class UserService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public User registerUser(User user) throws Exception {
+    public UserResponseDTO registerUser(User user) throws Exception {
 
         if(userRepository.findByEmail(user.getEmail()) !=null )
         {
@@ -32,8 +33,9 @@ public class UserService {
         user.setEnabled(false);
 
         User userSaved=this.userRepository.save(user);
+        UserResponseDTO userReponse=new UserResponseDTO(userSaved.getId(),userSaved.getName(),userSaved.getEmail(),userSaved.getPassword());
 
-        return userSaved;
+        return userReponse;
     }
 
 
