@@ -19,16 +19,16 @@ public class User implements UserDetails {
     private String email;
     private String password;
 
-    private String verificatioCode;
+    private String verificationCode;
 
     private boolean enabled;
 
-    public User(UUID id, String name, String email, String password, String verificatioCode, boolean enabled) {
+    public User(UUID id, String name, String email, String password, String verificationCode, boolean enabled) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.password = password;
-        this.verificatioCode = verificatioCode;
+        this.verificationCode = verificationCode;
         this.enabled = enabled;
     }
 
