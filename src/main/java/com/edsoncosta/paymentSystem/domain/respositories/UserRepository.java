@@ -8,7 +8,9 @@ import java.util.List;
 import java.util.UUID;
 
 public interface UserRepository extends JpaRepository<User, UUID> {
-    User findByEmail(String email);
+    UserDetails findByEmail(String email);
+
+    User findByVerificationCode(String code);
     User findByName(String name);
     List<User> findAllByEnabledIsTrue();
 }
