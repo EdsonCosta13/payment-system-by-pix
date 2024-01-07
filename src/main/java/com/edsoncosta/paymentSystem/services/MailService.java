@@ -153,6 +153,20 @@ public class MailService {
                 "                    <div style=\"box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;\">\n" +
                 "                      <!--<![endif]-->\n" +
                 "\n" +
+                "                      <table style=\"font-family:'Cabin',sans-serif;\" role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" border=\"0\">\n" +
+                "                        <tbody>\n" +
+                "                          <tr>\n" +
+                "                            <td style=\"overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Cabin',sans-serif;\" align=\"left\">\n" +
+                "\n" +
+                "                              <div style=\"font-size: 14px; color: #afb0c7; line-height: 170%; text-align: center; word-wrap: break-word;\">\n" +
+                "                                <p style=\"font-size: 14px; line-height: 170%;\"><span style=\"font-size: 14px; line-height: 23.8px;\">View Email in Browser</span></p>\n" +
+                "                              </div>\n" +
+                "\n" +
+                "                            </td>\n" +
+                "                          </tr>\n" +
+                "                        </tbody>\n" +
+                "                      </table>\n" +
+                "\n" +
                 "                      <!--[if (!mso)&(!IE)]><!-->\n" +
                 "                    </div>\n" +
                 "                    <!--<![endif]-->\n" +
@@ -234,7 +248,7 @@ public class MailService {
                 "                            <td style=\"overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Cabin',sans-serif;\" align=\"left\">\n" +
                 "\n" +
                 "                              <div style=\"font-size: 14px; color: #e5eaf5; line-height: 140%; text-align: center; word-wrap: break-word;\">\n" +
-                "                                <p style=\"font-size: 14px; line-height: 140%;\"><strong>Muito obrigado por se registrar</strong></p>\n" +
+                "                                <p style=\"font-size: 14px; line-height: 140%;\"><strong>Obrigado por registrar-se na plataforma!</strong></p>\n" +
                 "                              </div>\n" +
                 "\n" +
                 "                            </td>\n" +
@@ -248,7 +262,7 @@ public class MailService {
                 "                            <td style=\"overflow-wrap:break-word;word-break:break-word;padding:0px 10px 31px;font-family:'Cabin',sans-serif;\" align=\"left\">\n" +
                 "\n" +
                 "                              <div style=\"font-size: 14px; color: #e5eaf5; line-height: 140%; text-align: center; word-wrap: break-word;\">\n" +
-                "                                <p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-size: 28px; line-height: 39.2px;\"><strong><span style=\"line-height: 39.2px; font-size: 28px;\">Verifique o seu e-mail</span></strong>\n" +
+                "                                <p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-size: 28px; line-height: 39.2px;\"><strong><span style=\"line-height: 39.2px; font-size: 28px;\">Verifica o Seu Endereço de Email </span></strong>\n" +
                 "                                  </span>\n" +
                 "                                </p>\n" +
                 "                              </div>\n" +
@@ -292,7 +306,7 @@ public class MailService {
                 "\n" +
                 "                              <div style=\"font-size: 14px; line-height: 160%; text-align: center; word-wrap: break-word;\">\n" +
                 "                                <p style=\"font-size: 14px; line-height: 160%;\"><span style=\"font-size: 22px; line-height: 35.2px;\">Olá [[NAME]], </span></p>\n" +
-                "                                <p style=\"font-size: 14px; line-height: 160%;\"><span style=\"font-size: 18px; line-height: 28.8px;\">Você inicou a criação da sua conta mas falta um ultimo passo! Clique no botão abaixo e confirme o seu registro</span></p>\n" +
+                "                                <p style=\"font-size: 14px; line-height: 160%;\">Você está quase pronto para começar. Clique no botão abaixo para verificar seu endereço de e-mail e desfrutar de serviços de limpeza exclusivos connosco!</p>\n" +
                 "                              </div>\n" +
                 "\n" +
                 "                            </td>\n" +
@@ -309,7 +323,7 @@ public class MailService {
                 "                              <div align=\"center\">\n" +
                 "                                <!--[if mso]><v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" href=\"[[URL]]\" style=\"height:46px; v-text-anchor:middle; width:219px;\" arcsize=\"8.5%\"  stroke=\"f\" fillcolor=\"#ff6600\"><w:anchorlock/><center style=\"color:#FFFFFF;\"><![endif]-->\n" +
                 "                                <a href=\"[[URL]]\" target=\"_blank\" class=\"v-button\" style=\"box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #ff6600; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;\">\n" +
-                "                                  <span style=\"display:block;padding:14px 44px 13px;line-height:120%;\"><span style=\"font-size: 16px; line-height: 19.2px;\"><strong><span style=\"line-height: 19.2px; font-size: 16px;\">Verifique seu email</span></strong>\n" +
+                "                                  <span style=\"display:block;padding:14px 44px 13px;line-height:120%;\"><span style=\"font-size: 16px; line-height: 19.2px;\"><strong><span style=\"line-height: 19.2px; font-size: 16px;\">VERIFICAR CONTA</span></strong>\n" +
                 "                                  </span>\n" +
                 "                                  </span>\n" +
                 "                                </a>\n" +
@@ -327,7 +341,8 @@ public class MailService {
                 "                            <td style=\"overflow-wrap:break-word;word-break:break-word;padding:33px 55px 60px;font-family:'Cabin',sans-serif;\" align=\"left\">\n" +
                 "\n" +
                 "                              <div style=\"font-size: 14px; line-height: 160%; text-align: center; word-wrap: break-word;\">\n" +
-                "                                <p style=\"line-height: 160%; font-size: 14px;\"><span style=\"font-size: 18px; line-height: 28.8px;\">Obrigado!</span></p>\n" +
+                "                                <p style=\"line-height: 160%; font-size: 14px;\"><span style=\"font-size: 18px; line-height: 28.8px;\">Obrigado,</span></p>\n" +
+                "                                <p style=\"line-height: 160%; font-size: 14px;\"><span style=\"font-size: 18px; line-height: 28.8px;\">Easy Payments, por Edson Costa</span></p>\n" +
                 "                              </div>\n" +
                 "\n" +
                 "                            </td>\n" +
@@ -362,6 +377,85 @@ public class MailService {
                 "                    <div style=\"box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;\">\n" +
                 "                      <!--<![endif]-->\n" +
                 "\n" +
+                "                      <table style=\"font-family:'Cabin',sans-serif;\" role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" border=\"0\">\n" +
+                "                        <tbody>\n" +
+                "                          <tr>\n" +
+                "                            <td style=\"overflow-wrap:break-word;word-break:break-word;padding:41px 55px 18px;font-family:'Cabin',sans-serif;\" align=\"left\">\n" +
+                "\n" +
+                "                              <div style=\"font-size: 14px; color: #003399; line-height: 160%; text-align: center; word-wrap: break-word;\">\n" +
+                "                                <p style=\"font-size: 14px; line-height: 160%;\"><span style=\"font-size: 20px; line-height: 32px;\"><strong>Entra em contacto</strong></span></p>\n" +
+                "                                <p style=\"font-size: 14px; line-height: 160%;\"><span style=\"font-size: 16px; line-height: 25.6px; color: #000000;\">+244 923 72 32 75</span></p>\n" +
+                "                                <p style=\"font-size: 14px; line-height: 160%;\"><span style=\"font-size: 16px; line-height: 25.6px; color: #000000;\"><a target=\"_blank\" href=\"mailto:info@easeypayment.co.ao\" rel=\"noopener\">info@easypayments</a>.pt</span></p>\n" +
+                "                                <p style=\"font-size: 14px; line-height: 160%;\"><span style=\"font-size: 16px; line-height: 25.6px; color: #000000;\">edson.costa@easy.payments.pt</span></p>\n" +
+                "                              </div>\n" +
+                "\n" +
+                "                            </td>\n" +
+                "                          </tr>\n" +
+                "                        </tbody>\n" +
+                "                      </table>\n" +
+                "\n" +
+                "                      <table style=\"font-family:'Cabin',sans-serif;\" role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" border=\"0\">\n" +
+                "                        <tbody>\n" +
+                "                          <tr>\n" +
+                "                            <td style=\"overflow-wrap:break-word;word-break:break-word;padding:10px 10px 33px;font-family:'Cabin',sans-serif;\" align=\"left\">\n" +
+                "\n" +
+                "                              <div align=\"center\">\n" +
+                "                                <div style=\"display: table; max-width:146px;\">\n" +
+                "                                  <!--[if (mso)|(IE)]><table width=\"146\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"border-collapse:collapse;\" align=\"center\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse:collapse; mso-table-lspace: 0pt;mso-table-rspace: 0pt; width:146px;\"><tr><![endif]-->\n" +
+                "\n" +
+                "\n" +
+                "                                  <!--[if (mso)|(IE)]><td width=\"32\" style=\"width:32px; padding-right: 17px;\" valign=\"top\"><![endif]-->\n" +
+                "                                  <table align=\"left\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"32\" height=\"32\" style=\"width: 32px !important;height: 32px !important;display: inline-block;border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 17px\">\n" +
+                "                                    <tbody>\n" +
+                "                                      <tr style=\"vertical-align: top\">\n" +
+                "                                        <td align=\"left\" valign=\"middle\" style=\"word-break: break-word;border-collapse: collapse !important;vertical-align: top\">\n" +
+                "                                          <a href=\"https://linkedin.com/\" title=\"LinkedIn\" target=\"_blank\">\n" +
+                "                                            <img src=\"https://cdn.tools.unlayer.com/social/icons/circle-black/linkedin.png\" alt=\"LinkedIn\" title=\"LinkedIn\" width=\"32\" style=\"outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important\">\n" +
+                "                                          </a>\n" +
+                "                                        </td>\n" +
+                "                                      </tr>\n" +
+                "                                    </tbody>\n" +
+                "                                  </table>\n" +
+                "                                  <!--[if (mso)|(IE)]></td><![endif]-->\n" +
+                "\n" +
+                "                                  <!--[if (mso)|(IE)]><td width=\"32\" style=\"width:32px; padding-right: 17px;\" valign=\"top\"><![endif]-->\n" +
+                "                                  <table align=\"left\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"32\" height=\"32\" style=\"width: 32px !important;height: 32px !important;display: inline-block;border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 17px\">\n" +
+                "                                    <tbody>\n" +
+                "                                      <tr style=\"vertical-align: top\">\n" +
+                "                                        <td align=\"left\" valign=\"middle\" style=\"word-break: break-word;border-collapse: collapse !important;vertical-align: top\">\n" +
+                "                                          <a href=\"https://www.linkedin.com/in/edsoncosta13/\" title=\"Instagram\" target=\"_blank\">\n" +
+                "                                            <img src=\"https://cdn.tools.unlayer.com/social/icons/circle-black/instagram.png\" alt=\"Instagram\" title=\"Instagram\" width=\"32\" style=\"outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important\">\n" +
+                "                                          </a>\n" +
+                "                                        </td>\n" +
+                "                                      </tr>\n" +
+                "                                    </tbody>\n" +
+                "                                  </table>\n" +
+                "                                  <!--[if (mso)|(IE)]></td><![endif]-->\n" +
+                "\n" +
+                "                                  <!--[if (mso)|(IE)]><td width=\"32\" style=\"width:32px; padding-right: 0px;\" valign=\"top\"><![endif]-->\n" +
+                "                                  <table align=\"left\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"32\" height=\"32\" style=\"width: 32px !important;height: 32px !important;display: inline-block;border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 0px\">\n" +
+                "                                    <tbody>\n" +
+                "                                      <tr style=\"vertical-align: top\">\n" +
+                "                                        <td align=\"left\" valign=\"middle\" style=\"word-break: break-word;border-collapse: collapse !important;vertical-align: top\">\n" +
+                "                                          <a href=\"https://youtube.com/\" title=\"YouTube\" target=\"_blank\">\n" +
+                "                                            <img src=\"https://cdn.tools.unlayer.com/social/icons/circle-black/youtube.png\" alt=\"YouTube\" title=\"YouTube\" width=\"32\" style=\"outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important\">\n" +
+                "                                          </a>\n" +
+                "                                        </td>\n" +
+                "                                      </tr>\n" +
+                "                                    </tbody>\n" +
+                "                                  </table>\n" +
+                "                                  <!--[if (mso)|(IE)]></td><![endif]-->\n" +
+                "\n" +
+                "\n" +
+                "                                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->\n" +
+                "                                </div>\n" +
+                "                              </div>\n" +
+                "\n" +
+                "                            </td>\n" +
+                "                          </tr>\n" +
+                "                        </tbody>\n" +
+                "                      </table>\n" +
+                "\n" +
                 "                      <!--[if (!mso)&(!IE)]><!-->\n" +
                 "                    </div>\n" +
                 "                    <!--<![endif]-->\n" +
@@ -388,6 +482,20 @@ public class MailService {
                 "                    <!--[if (!mso)&(!IE)]><!-->\n" +
                 "                    <div style=\"box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;\">\n" +
                 "                      <!--<![endif]-->\n" +
+                "\n" +
+                "                      <table style=\"font-family:'Cabin',sans-serif;\" role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" border=\"0\">\n" +
+                "                        <tbody>\n" +
+                "                          <tr>\n" +
+                "                            <td style=\"overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Cabin',sans-serif;\" align=\"left\">\n" +
+                "\n" +
+                "                              <div style=\"font-size: 14px; color: #fafafa; line-height: 180%; text-align: center; word-wrap: break-word;\">\n" +
+                "                                <p style=\"font-size: 14px; line-height: 180%;\"><span style=\"font-size: 16px; line-height: 28.8px;\">Copyrights © Todos Direitos Reservados</span></p>\n" +
+                "                              </div>\n" +
+                "\n" +
+                "                            </td>\n" +
+                "                          </tr>\n" +
+                "                        </tbody>\n" +
+                "                      </table>\n" +
                 "\n" +
                 "                      <!--[if (!mso)&(!IE)]><!-->\n" +
                 "                    </div>\n" +
